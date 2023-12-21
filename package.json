@@ -6,7 +6,7 @@
 	"scripts": {
 		"ng": "ng",
 		"build": "ng build ngx-leaflet-heat --configuration production",
-		"postbuild": "copyfiles README.md LICENSE ./dist/ngx-leaflet-heat && cp ./projects/ngx-leaflet-heat/src/lib/core/leaflet.heat.js ./dist/ngx-leaflet-heat/leaflet.heat.js",
+		"postbuild": "copyfiles README.md LICENSE ./dist/ngx-leaflet-heat",
 		"watch": "ng build ngx-leaflet-heat --watch --configuration development",
 		"test": "ng test"
 	},
