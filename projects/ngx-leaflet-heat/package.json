@@ -1,0 +1,20 @@
+{
+	"name": "@dvina/ngx-leaflet-heat",
+	"description": "Angular directives for the Leaflet Heat plugin",
+	"version": "17.0.0",
+	"author": "Kant Yazılım A.Ş.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dvina-ai/ngx-leaflet-heat.git"
+	},
+	"peerDependencies": {
+		"@angular/common": "17",
+		"@angular/core": "17",
+		"leaflet": "1"
+	},
+	"dependencies": {
+		"@dvina/leaflet-heat": "^1.0.0",
+		"tslib": "^2.4.0"
+	}
+}
